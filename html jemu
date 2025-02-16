@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Banner Ad -->
+    <div class="ad-banner" id="left-ad">
+      <!-- AdSense Code Here -->
+      <script type="text/javascript">
+	atOptions = {
+		'key' : '4eb239d572e66d02f6e519fa098f7b97',
+		'format' : 'iframe',
+		'height' : 468,
+		'width' : 60,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/4eb239d572e66d02f6e519fa098f7b97/invoke.js"></script>
+      <ins class="adsbygoogle"4689107
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="XXXXXXXXXX"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- Paint Canvas -->
+    <div class="paint-area">
+      <canvas id="paintCanvas"></canvas>
+      <div class="tools">
+        <input type="color" id="colorPicker" value="#000000">
+        <input type="range" id="brushSize" min="1" max="50" value="5">
+        <button id="clearCanvas">Clear</button>
+      </div>
+    </div>
+
+    <!-- Right Banner Ad -->
+    <div class="ad-banner" id="right-ad">
+      <!-- AdSense Code Here -->
+      <script type="text/javascript">
+	atOptions = {
+		'key' : '4eb239d572e66d02f6e519fa098f7b97',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/4eb239d572e66d02f6e519fa098f7b97/invoke.js"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="XXXXXXXXXX"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
